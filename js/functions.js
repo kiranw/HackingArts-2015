@@ -3,7 +3,6 @@ var randomize = function() {
 	var w = window.innerWidth;
 	var h = window.innerHeight;
 	document.getElementById("img").style.height = h + "px";
-	// document.getElementById("text").style.height = h-25 + "px";
 	$(".filler-text").css("color",chooseRandom(colors));
 
 	$.ajax({
@@ -19,8 +18,6 @@ var randomize = function() {
 	  		$(".img").html(html + link + html1);
 	  		$(".title").html(art.title);
 	  		$(".description").html(art.description);
-	  		// var img_height = $(".img").attr("height");
-			// $(".text").css("height", 550+"px");
 	  	}
 	});
 
