@@ -11,10 +11,15 @@ body {
 }
 
 .text {
-	float: right;
+	float: left;
 	font-size:100px !important;
 	width: 70%;
 	height: 100%;
-	padding: 20px;
-	background-color: green;
+	/*padding: 80px;*/
+	/*background-color: green;*/
+}
+
+.filler-text {
+	border-bottom: 7px solid black;
+	color: red;
 }
