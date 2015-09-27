@@ -6,6 +6,7 @@ var randomize = function() {
 	//document.getElementById("text").style.height = h-25 + "px";
 	//$(".filler-text").css("color",chooseRandom(colors));
 
+	$(".filler-text").css("color",chooseRandom(colors));
 
 	$.ajax({
 	  	url: "https://api.artsy.net:443/api/search?q=" + chooseRandom(artists),
@@ -20,8 +21,6 @@ var randomize = function() {
 	  		$(".img").html(html + link + html1);
 	  		$(".title").html(art.title);
 	  		$(".description").html(art.description);
-	  		// var img_height = $(".img").attr("height");
-			// $(".text").css("height", 550+"px");
 	  	}
 	});
 
