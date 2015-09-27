@@ -3,13 +3,9 @@ var randomize = function() {
 	var w = window.innerWidth;
 	var h = window.innerHeight;
 	document.getElementById("img").style.height = h + "px";
-<<<<<<< HEAD
-	document.getElementById("text").style.height = h-25 + "px";
-	// $(".filler-text").css("color",chooseRandom(colors));
-=======
-	// document.getElementById("text").style.height = h-25 + "px";
-	$(".filler-text").css("color",chooseRandom(colors));
->>>>>>> c8951e4dc0911377d285ebe922f772a4437e1330
+	//document.getElementById("text").style.height = h-25 + "px";
+	//$(".filler-text").css("color",chooseRandom(colors));
+
 
 	$.ajax({
 	  	url: "https://api.artsy.net:443/api/search?q=" + chooseRandom(artists),
