@@ -3,8 +3,10 @@ var randomize = function() {
 	var w = window.innerWidth;
 	var h = window.innerHeight;
 	document.getElementById("img").style.height = h + "px";
+	//document.getElementById("text").style.height = h-25 + "px";
+	//$(".filler-text").css("color",chooseRandom(colors));
+
 	$(".filler-text").css("color",chooseRandom(colors));
-	// document.getElementById("text").style.height = h-25 + "px";
 
 	$.ajax({
 	  	url: "https://api.artsy.net:443/api/search?q=" + chooseRandom(artists),
