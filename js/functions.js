@@ -4,6 +4,7 @@ var randomize = function() {
 	var h = window.innerHeight;
 	document.getElementById("img").style.height = h + "px";
 	$(".filler-text").css("color",chooseRandom(colors));
+	// document.getElementById("text").style.height = h-25 + "px";
 
 	$.ajax({
 	  	url: "https://api.artsy.net:443/api/search?q=" + chooseRandom(artists),
