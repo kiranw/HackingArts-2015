@@ -1,32 +1,50 @@
-
 body {
 	position: absolute;
 }
 
-.img {
+#img {
 	float: left;
-	width: 30%;
-	height: 100%;
+	width: 40%;
 	padding: 20px;
-	background-color: red;
+	/*border-right: 1px solid black;*/
+	overflow: scroll;
+	padding-left:30px;
 }
 
 .text {
 	float: left;
-	font-size:130px !important;
-	width: 65%;
-	height: 100%;
-	line-height: 180px;
+	font-size:90px !important;
+	width: 56%;
+	line-height: 130px;
+	overflow: scroll;
+	margin-top: 25px;
 }
 
 .spacer {
 	float: left;
-	width: 5%;
+	width: 3%;
 	color: transparent;
 }
 
 .filler-text {
 	border-bottom: 7px solid black;
 	color: red;
+}
 
+img {
+	width: 450px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.title {
+	font-style: italics;
+	margin-top: 30px;
+}
+
+.description {
+	margin-top: 30px;
+	font-style: italics;
+	color: gray;
 }
