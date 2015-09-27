@@ -13,11 +13,15 @@ body {
 .text {
 	float: left;
 	font-size:130px !important;
-	width: 70%;
+	width: 65%;
 	height: 100%;
 	line-height: 180px;
-	/*padding: 80px;*/
-	/*background-color: green;*/
+}
+
+.spacer {
+	float: left;
+	width: 5%;
+	color: transparent;
 }
 
 .filler-text {
