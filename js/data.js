@@ -46,7 +46,6 @@ var filler1 = [
 "a musing",
 "a study",
 "a reflection",
-"a introspection",
 "a reverie",
 "an abstraction",
 "an elucidation",
@@ -62,7 +61,7 @@ var filler1 = [
 ];
 
 var filler2 = [
-"gender bias and heteronormativity",
+"gender bias & heteronormativity",
 "breaking down the binaries",
 "evocative postmodernism",
 "kitsch and fetishism",
@@ -72,10 +71,10 @@ var filler2 = [
 "a primitivist rendering",
 "spacial depth and symmetry",
 "the frenzied pace of city life",
-"a complex abstraction of classism",
+"an abstraction of classism",
 "ethereal synergism",
 "the avant-garde philosophy",
-"the withered representation of self"
+"the withered self-representation"
 ];
 
 var colors = [
