@@ -12,9 +12,10 @@ body {
 
 .text {
 	float: left;
-	font-size:100px !important;
+	font-size:130px !important;
 	width: 70%;
 	height: 100%;
+	line-height: 180px;
 	/*padding: 80px;*/
 	/*background-color: green;*/
 }
